@@ -1,4 +1,4 @@
-This is a tutorial I followed, found [here](https://www.hackingwithreact.com/).
+This is a tutorial I followed, found [here](http://www.hackingwithreact.com/).
 
 --------------
 
