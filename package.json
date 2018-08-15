@@ -1,0 +1,35 @@
+{
+  "name": "hacking-with-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chance": "^1.0.16",
+    "history": "file:node_modules/history",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "superagent": "^3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --verbose",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+      "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+      "unmockedModulePathPatterns": [
+        "<rootDir>/node_modules/react",
+        "<rootDir>/node_modules/react-dom",
+        "<rootDir>/node_modules/react-addons-test-utils",
+        "<rootDir>/node_modules/fbjs"
+      ]
+  },
+  "devDependencies": {
+    "babel-jest": "file:node_modules/babel-jest",
+    "jest-cli": "^23.5.0",
+    "react-addons-test-utils": "^15.6.2"
+  }
+}
